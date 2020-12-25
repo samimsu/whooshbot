@@ -1,6 +1,7 @@
 const fs = require('fs');
 const Discord = require('discord.js');
 // const { prefix, token } = require('./config.json');
+const Webhook = require('./webhook.js');
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
@@ -35,5 +36,7 @@ client.on('message', message => {
 });
 
 client.login(process.env.token);
+
+Webhook.execute(client);
 
 // process.env
