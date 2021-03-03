@@ -1,3 +1,7 @@
 /.eslintrc.json
 /package-lock.json
 node_modules/
+.env
+/database.sqlite
+/product.jpg
+/webhook.js

@@ -10,6 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.2.0"
+    "cheerio": "^1.0.0-rc.5",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "image-downloader": "^4.0.2",
+    "sequelize": "^6.3.5",
+    "sqlite3": "^5.0.0"
   }
 }
