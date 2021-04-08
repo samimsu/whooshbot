@@ -8,6 +8,6 @@ module.exports = {
         const hours = parseInt(Math.floor(minutes / 60));
         const days = parseInt(Math.floor(hours / 24));
 
-        message.channel.send(uptimeMS, days, hours, minutes, seconds);
+        message.channel.send(`${uptimeMS}ms = ${seconds}s = ${minutes}m =  ${hours}h = ${days}d`);
     },
 };
